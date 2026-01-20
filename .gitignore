@@ -1,0 +1,34 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.eggs/
+*.egg-info/
+*.egg
+
+# Model checkpoints (keep only best models if desired)
+*.pth
+
+# Test/debug files
+test_capture.png
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Recordings
+*.mp4
